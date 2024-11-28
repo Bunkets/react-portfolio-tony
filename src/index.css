@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(-50px) translateX(50px);
+  }
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+}
+
+.background-stones {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Make sure it’s behind the content */
+}
+
+.stone {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.2;
+  filter: blur(5px); /* Blur to make the stones look behind the content */
+  animation: float 10s infinite ease-in-out;
+}
+
+.stone-black {
+  background-color: black;
+}
+
+.stone-white {
+  background-color: white;
+}
+
+/* Define sizes and random positions for the stones */
+.stone1 { width: 50px; height: 50px; top: 10%; left: 20%; animation-duration: 8s; }
+.stone2 { width: 70px; height: 70px; top: 30%; left: 70%; animation-duration: 12s; }
+.stone3 { width: 40px; height: 40px; top: 60%; left: 50%; animation-duration: 10s; }
+.stone4 { width: 80px; height: 80px; top: 80%; left: 10%; animation-duration: 15s; }
+.stone5 { width: 60px; height: 60px; top: 50%; left: 80%; animation-duration: 9s; }
+.stone6 { width: 55px; height: 55px; top: 20%; left: 30%; animation-duration: 13s; }
+.stone7 { width: 45px; height: 45px; top: 25%; left: 15%; animation-duration: 11s; }
+.stone8 { width: 75px; height: 75px; top: 15%; left: 85%; animation-duration: 14s; }
+.stone9 { width: 65px; height: 65px; top: 40%; left: 35%; animation-duration: 8s; }
+.stone10 { width: 50px; height: 50px; top: 70%; left: 65%; animation-duration: 10s; }
+.stone11 { width: 90px; height: 90px; top: 60%; left: 25%; animation-duration: 12s; }
+.stone12 { width: 45px; height: 45px; top: 75%; left: 55%; animation-duration: 15s; }
+.stone13 { width: 50px; height: 50px; top: 85%; left: 30%; animation-duration: 9s; }
+.stone14 { width: 80px; height: 80px; top: 45%; left: 10%; animation-duration: 14s; }
+.stone15 { width: 70px; height: 70px; top: 65%; left: 40%; animation-duration: 13s; }
