@@ -17,8 +17,8 @@ const Navbar = () => {
           Home
         </Link>
         
-        <Link to="/book" className="text-lg font-semibold hover:text-purple-500">
-          My Book
+        <Link to="/About Me" className="text-lg font-semibold hover:text-purple-500">
+          About Me
         </Link>
         <Link to="/scribego" className="text-lg font-semibold hover:text-purple-500">
           ScribeGo
