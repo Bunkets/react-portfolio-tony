@@ -18,8 +18,8 @@ const App = () => {
           
           {/* Set up routing between the pages */}
           <Routes>
-            <Route path="/" element={<Hero />} /> {/* Home route */}
-            <Route path="/book" element={<Book />} /> {/* Book route */}
+            <Route path="/book" element={<Book />} /> {/* Home route */}
+            <Route path="/" element={<Hero />} /> {/* Book route */}
             <Route path="/scribego" element={<ScribeGo />} /> {/* ScribeGo route */}
           </Routes>
         </div>

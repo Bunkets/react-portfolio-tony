@@ -67,6 +67,17 @@ const Book = () => {
             shape strategic thinking in Go and master how to choose their very
             next move.
           </p>
+
+          <div className="mt-6 flex justify-center">
+            <a
+              href="https://www.amazon.com/dp/B0DRBGQ2ZD/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.FzWXr3Vu5N__DT_6rwNI5QAegsotRoYr-2hv_mKOrCs1usUyyFgB2kNJwEQXVeSEGpFXciUkWI6bWjATDVkB4vCFU30oaEoLXiUdIQnSzzQOB95PvWKvvdiWh8uMjF7QYVdY6fX7Wh5KlLQjuR1IIZpT5FjfTHQq-apkwQlvVjxLl1l5UZpccqZMtQexFzoW-Kbx_YSPY6Cy535zu3DP4cPAQeWKGCGkQMAO8iSS1bk.JSAfrKSHtb-8Q0Ab5QmJJZ-VLV8XuaPjjW_TuT3USzc&qid=1735028220&sr=1-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-blue-700 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-800 transition-colors"
+            >
+              More Info
+            </a>
+          </div>
         </div>
       </div>
 
